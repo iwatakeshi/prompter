@@ -33,7 +33,7 @@ class Prompter {
   }
 
   dynamic choice(String question, List<Option> options) {
-    final response =_ask(question, options, false);
+    final response = _ask(question, options, false);
     try {
       return options[int.parse(response) - 1].value;
     } catch (_) {
