@@ -1,5 +1,6 @@
 import 'package:prompter/src/option.dart';
 import 'package:prompter/src/terminal.dart';
+export 'package:prompter/src/option.dart';
 
 class Prompter {
   final _terminal = const Terminal();
